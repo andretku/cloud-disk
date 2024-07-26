@@ -7,8 +7,12 @@ import { NavLink } from 'react-router-dom';
 
 
 const Login = () => {
-    const [email, setEmail] = useState("ggg@mail.ru")
-    const [password, setPassword] = useState("123456")
+
+    // ggg@mail.ru = 123456
+    // test3@gmail.com = test3
+
+    const [email, setEmail] = useState("test4@gmail.com")
+    const [password, setPassword] = useState("test4")
     const dispatch = useDispatch()
 
     const onClickHandler = (e) => {

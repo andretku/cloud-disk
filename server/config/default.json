@@ -2,5 +2,5 @@
     "serverPort": 5000,
     "dbUrl": "mongodb+srv://tavideon:92Hq4raU907pW2bn@cloud.bbojeeo.mongodb.net/?retryWrites=true&w=majority&appName=cloud",
     "secretKey": "my-new-secret-key",
-    "filePath": "D:\\GIT\\ulbi-cloud\\server\\files"
+    "filePath": "D:\\GIT\\cloud-disk\\server\\files"
 }

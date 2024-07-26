@@ -4,13 +4,12 @@ const config = require('config')
 
 class FileService {
 
-    // создание папок
     createDir(file) {
         const filePath = `${config.get('filePath')}\\${file.user}\\${file.path}`
+
         return new Promise(((resolve, reject) => {
             try {
-                // если файл существует
-                if (!fs.existsSync(filePath)) {  
+                if (!fs.existsSync(filePath)) {
                     fs.mkdirSync(filePath)
                     return resolve({message: 'File was created'})
                 } else {
